@@ -11,10 +11,10 @@ Resources used in this project are :
 * Apache2
 
 ## Web URL
-* IP Address : 18.136.177.22
-* SSH Address : grader@18.136.177.22
+* IP Address : 52.221.52.10/
+* SSH Address : grader@52.221.52.10/
 * SSH PORT: 2200
-* Web Address: http://18.136.177.22.xip.io
+* Web Address: http://52.221.52.10/.xip.io
 
 ## Deployment Summary
 
