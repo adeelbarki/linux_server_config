@@ -14,7 +14,7 @@ Resources used in this project are :
 * IP Address : 52.221.52.10/
 * SSH Address : grader@52.221.52.10/
 * SSH PORT: 2200
-* Web Address: http://52.221.52.10/.xip.io
+* Web Address: http://52.221.52.10.xip.io
 
 ## Deployment Summary
 
