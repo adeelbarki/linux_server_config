@@ -39,6 +39,17 @@ Softwares installed are apache2 and mod-wsgi in order to run flask application. 
 * To check ufw firewall status:
 `sudo ufw status` 
 
+* sshd Configuration:
+`/etc/ssh/sshd_config`
+    - Port 2200
+    - PermitRootLogin no
+    - PasswordAuthentication no
+
+* Ports Allow through ufw (as per instructions) 
+    - PORT 2200 (SSH)
+    - PORT 80 (HTTP)
+    - PORT 123 (NTP)
+
 ## SSH key location
 SSH key is provided in "Notes to Reviewer" for logging into account "grader"
 
