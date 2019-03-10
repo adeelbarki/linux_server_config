@@ -43,12 +43,15 @@ Softwares installed are apache2 and mod-wsgi in order to run flask application. 
 `/etc/ssh/sshd_config`
     - Port 2200
     - PermitRootLogin no
-    - PasswordAuthentication no
+    - PasswordAuthentication no52.221.52.10
 
-* Ports Allow through ufw (as per instructions) 
+* Ports Allow through ufw (as per instructions):
     - PORT 2200 (SSH)
     - PORT 80 (HTTP)
     - PORT 123 (NTP)
+
+* Database Server:
+    - Database server used is AWS RDS. PostgreSQL is used for application database. 
 
 ## SSH key location
 SSH key is provided in "Notes to Reviewer" for logging into account "grader"
